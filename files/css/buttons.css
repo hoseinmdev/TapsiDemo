@@ -1,0 +1,53 @@
+/* THIS BUTTON STYLE USE IN HEADER SECTION (WHITE & NONE-BACKGROUND BUTTONS STYLE) */
+.primaryBtn {
+  cursor: pointer;
+  font-size: 1.6rem;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+}
+.primaryBtn--whiteBackground {
+  transition: 0.2s;
+  font-weight: bold;
+  background-color: var(--color-third);
+  margin-top: 0.6rem;
+  color: var(--color-black);
+  border: none;
+}
+.primaryBtn--noneBackground {
+  font-weight: bold;
+  background: none;
+  border-radius: 12px;
+  border: 1px solid var(--color-third);
+  margin-top: 0.6rem;
+  color: var(--color-third);
+}
+
+
+/* THIS BUTTON STYLE MORE USE IN BODY (ORANGE AND DARK-ORANGE BUTTON STYLE) */
+.secondaryBtn {
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 1rem 4rem;
+}
+.secondaryBtn--orange {
+  background-color: var(--color-primaray);
+  color: var(--color-third);
+  border: none;
+}
+.secondaryBtn--orange:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-third);
+  border: none;
+}
+
+.secondaryBtn--darkOrange {
+  background-color: var(--color-secondary);
+  color: var(--color-third);
+  border: none;
+}
+.secondaryBtn--darkOrange:hover {
+  background-color: var(--color-primaray);
+  color: var(--color-third);
+  border: none;
+}
