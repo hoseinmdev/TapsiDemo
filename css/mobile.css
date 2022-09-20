@@ -55,7 +55,7 @@ h1 {
 
 /* HEADER BACKGROUND */
 .headerSection {
-  background: url(/files/images/banner.png);
+  background: url(/assets/images/banner.png);
   height: 49rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@ h1 {
 }
 .cardsSection__body__item{
   margin-bottom: 2rem;
-  list-style-image: url(/files/images/check\ 6.png);
+  list-style-image: url(/assets/images/check\ 6.png);
 }
 .cardsSection__button{
   font-size: 2rem;
@@ -252,15 +252,15 @@ h1 {
   gap: 1.5rem;
 }
 .location{
-  list-style: url(/files/images/LocationVector.png);
+  list-style: url(/assets/images/LocationVector.png);
 }
 .number{
   position: relative;
   margin-right: -0.2rem;
-  list-style: url(/files/images/PhoneVector.png);
+  list-style: url(/assets/images/PhoneVector.png);
 }
 .mail{
-  list-style: url(/files/images/MailVector.png);
+  list-style: url(/assets/images/MailVector.png);
 }
 
 
